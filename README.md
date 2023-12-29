@@ -1,5 +1,3 @@
-# My projects
-
 [![GitHub followers](https://img.shields.io/github/followers/ahaydon?logo=GitHub&style=for-the-badge)](https://github.com/ahaydon)
 
 ## Qlik-Cli for Windows

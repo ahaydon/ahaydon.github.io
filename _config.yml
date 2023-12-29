@@ -1,0 +1,67 @@
+plugins:
+  - jekyll-include-cache
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+
+minimal_mistakes_skin: air
+
+#locale: en-GB
+
+title: Adam Haydon
+subtitle: "My projects"
+
+repository: ahaydon/ahaydon.github.io
+
+main:
+  - title: Projects
+    url: /
+  - title: About
+    url: /about/
+
+social:
+  links:
+    - https://www.linkedin.com/in/ahaydon
+
+author_profile: true
+
+author:
+  name: Adam Haydon
+  avatar: https://avatars.githubusercontent.com/u/12749269?v=4
+  bio: Technical Architect
+  location: UK
+  links:
+    - label: Qlik
+      icon: far fa-fw fa-building
+      url: https://www.qlik.com
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ahaydon" 
+    - label: LinkedIn
+      icon: "fab fa-fw fa-linkedin"
+      url: https://wow.linkedin.com/in/ahaydon
+    - label: Qlik Community
+      icon: fas fa-fw fa-link
+      url: https://community.qlik.com/t5/user/viewprofilepage/user-id/44355
+    - label: Keybase
+      icon: fab fa-fw fa-keybase
+      url: https://keybase.io/adamhaydon
+
+atom_feed:
+  hide: true
+
+footer:
+  links:
+    - label: GitHub
+      icon: fab fa-fw fa-github
+      url: https://github.com/ahaydon
+    - label: LinkedIn
+      icon: "fab fa-fw fa-linkedin"
+      url: https://wow.linkedin.com/in/ahaydon
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      title: My projects
